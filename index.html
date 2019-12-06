@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fixed.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,7 +15,7 @@
     <div id = "home">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"><img src="images/logo.png" width="30" height="30"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,12 +40,13 @@
     <!-- start landing page--->
     <div class="landing">
         <div class="home-wrap">
-            <div class="inner">
-
+            <div class="home-inner">
             </div>
         </div>
     <div class="caption text-center">
-            <font color="white"><h1>Hello world</h1></font>
+            <h1>Welcome</h1>
+            <h2>"You Can't Have a Million Dollar Dream With a Minimum Wage Work Ethic"</h2>
+            <a class="btn btn-outline-light btn-lg" href="#about_me">Begin</a>
     </div>
     <!--end landing-->
     </div>
@@ -52,61 +54,71 @@
 
     <!-- About me --->
     <div id = "about_me" class = "offset">
-
+        <div class="row justify-content-center">
+        <div class="col-8 narrow text-center">
+            <h1>Hey!!</h1>
+            <p>Hey, I am Anurudran and I am a 3<sup>rd</sup> year software engineering student studying at University of Toronto. During school I have learned many programming languages. These languages are Python, Java, C, and SQL.
+                In my spare time I go to the gym, or play sports such as basketball and frisbee. I also watch basketball and am a fan of the Toronto Raptors, *we the champs!* I am a hard working and kind person who can get along with anyone. I have gained valuable skills and experiences from my previous work experiences that can be brought into any company. </p>
+        </div>
+</div>
     </div>
 <!-- End about me -->
 
     <!-- Experiences --->
     <div id = "experiences" class = "offset">
 
+        <div class="jumbotron">
+            <div class="narrow">
+                <div class="col-12">
+                    <div class="text-center">
+                    <h3>Experiences</h3>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-4">
+                             <p><strong>Web Developer - Public Procurement of Canada, </strong></strong>Toronto, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; September 2019 &ndash; December 2019</p>
+                            <ul>
+                                <li>Made changes to the intradev and internet government pages based on the clients interests</li>
+                                <li>Commuincated efficetively with clients to ensure speedy progress in completing tasks</li>
+                            </ul>      
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Senior QA Specialist - CIBC Digital, </strong>Toronto, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; January 2019 &ndash; April 2019</p>
+                            <ul>
+                                <li>Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website</li>
+                                <li>Coordinated with team members to efficiently and effectively test changes</li>
+                            </ul>    
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Hudson Bay Company,</strong> Scarborough, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; June 2017 &ndash; August 2017</p>
+                            <ul>
+                                <li>Coordinated receiving, packaging and scanning all the products into inventory</li>
+                            </ul>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         </div>
     <!-- End Experiences -->
 
     <!-- Contact--->
     <div id = "contact" class = "offset">
+        <footer>
+            <div class="row justify-content-center">
+                 <div class="col-md-5 text-center">
+                     <img src="images/logo.png" width="30px" height="30px"> <br>
+                     <strong>Contact</strong>
+                     <p>Info</p>
+                     <a href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                 </div>
+            </div>
+        </footer>
 
         </div>
     <!-- End Contact-->
     
-    <!---
-    <p>Hello world</p>
-    <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="#about_me"><font color="white">About me</font></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experiences"><font color="white">Experiences</font></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><font color="white">Contact</font></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><font color="white">Something</font></a>
-            </li>
-          </ul>
-          <font color="white">
-          <a id="about_me"><h1>About me</h1></a>
-          <p>Hey, I am Anurudran and I am a 3<sup>rd</sup> year software engineering student studying at University of Toronto. In my spare time I go to the gym, or play sports such as basketball and frisbee. I am a hard working and kind person. Go to add some more ...</p>
-          <a id="experiences"><h1>Experiences</h1></a>
-          <p><strong>&nbsp;</strong></p>
-          <p><strong>Web Developer - Public Procurement of Canada, </strong></strong>Toronto, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; September 2019 &ndash; December 2019</p>
-          <ul>
-              <li>Made changes to the intradev and internet government pages based on the clients interests</li>
-              <li>Commuincated efficetively with clients to ensure speedy progress in completing tasks</li>
-          </ul>          
-          <p><strong>&nbsp;</strong></p>
-          <p><strong>Senior QA Specialist - CIBC Digital, </strong>Toronto, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; January 2019 &ndash; April 2019</p>
-          <ul>
-          <li>Used Adobe Experience Manager and eBanking platform to test changes made on the CIBC and Simplii website</li>
-          <li>Coordinated with team members to efficiently and effectively test changes</li>
-          </ul>
-          <p><strong>&nbsp;</strong></p>
-          <p><strong>Hudson Bay Company,</strong> Scarborough, Ontario&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; June 2017 &ndash; August 2017</p>
-          <ul>
-          <li>Coordinated receiving, packaging and scanning all the products into inventory</li>
-          </ul>
-          </font>
-          --->
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

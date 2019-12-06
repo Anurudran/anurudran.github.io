@@ -10,12 +10,18 @@
 .navbar-nav li {
   padding-right: .7rem;
 }
-.landing{
+.home-inner{
   background-image: url(images/home.jpg);
   background-size: cover;
   height: 1000px;
   position: relative;
 }
-.about_me{
-  background-color: aqua;
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
 }
+
