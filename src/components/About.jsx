@@ -25,7 +25,7 @@ const About = () => {
             wrapper="span"
             cursor={true}
             repeat={Infinity}
-            style={{ fontSize: '2em', display: 'inline-block' }}
+            style={{ fontSize: '2em', display: 'inline-block', paddingLeft: '10px' }}
           />
         </h2>
         <div class="icon">
