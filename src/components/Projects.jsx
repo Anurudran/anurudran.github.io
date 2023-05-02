@@ -1,4 +1,6 @@
 import React from 'react';
+import ProjectItem from './ProjectItem';
+import pythongamesimg from "../assets/img1.png";
 
 const Projects = () => {
   const projects = [
@@ -17,17 +19,18 @@ const Projects = () => {
   ];
 
   return (
-    <div>
+    <div class="custom-work">
       <h1>My Projects</h1>
-      {projects.map((project) => (
-        <div key={project.id}>
-          <h2>{project.title}</h2>
-          <p>{project.description}</p>
-          <a href={project.link}>View on GitHub</a>
-        </div>
-      ))}
+      <p class="projects">
+        This is some of the projects I have done. To view more projects I have done check out my GitHub account.
+      </p>
+      <div class="projectitem">
+        <ProjectItem img={pythongamesimg} title="Python Games"/>
+
+      </div>
     </div>
   );
 };
 
 export default Projects;
+// text-center py-8

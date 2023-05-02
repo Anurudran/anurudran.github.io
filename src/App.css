@@ -1,3 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
 .image-overlay-container {
   position: relative;
   width: 100%;
@@ -122,5 +126,17 @@ h1 {
   font-size: 1rem; /* equivalent to text-base */
   font-weight: normal; /* equivalent to font-normal */
   color: #9CA3AF; /* equivalent to text-stone-500 */
+}
+
+.projects {
+  text-align: center;
+  padding-top: 1rem; /* assuming 1rem = 16px */
+  padding-bottom: 4rem; /* assuming 1rem = 16px */
+}
+
+.projectitem {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+  grid-gap: 12px;
 }
 
