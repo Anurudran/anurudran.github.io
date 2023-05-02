@@ -29,8 +29,8 @@ const About = () => {
           />
         </h2>
         <div class="icon">
-          <FaLinkedinIn size={25}/>
-          <FaGithub size={25}/>
+          <a href="https://www.linkedin.com/in/anurudran-chandrasekaram-075494128/"><FaLinkedinIn size={25}/></a>
+          <a href="https://github.com/Anurudran"><FaGithub size={25}/></a>
         </div>
       </div>
     </div>

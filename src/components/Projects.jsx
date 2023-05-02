@@ -1,32 +1,19 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
 import pythongamesimg from "../assets/img1.png";
+import twitterimg from "../assets/img2.png";
+
 
 const Projects = () => {
-  const projects = [
-    {
-      id: 1,
-      title: 'React Portfolio',
-      description: 'A portfolio website built with React and React Router.',
-      link: 'https://google.ca',
-    },
-    {
-      id: 2,
-      title: 'Node.js Blog',
-      description: 'A simple blog website built with Node.js and Express.',
-      link: 'https://google.ca',
-    },
-  ];
-
   return (
-    <div class="custom-work">
+    <div className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
       <h1>My Projects</h1>
       <p class="projects">
-        This is some of the projects I have done. To view more projects I have done check out my GitHub account.
+        This is some of the projects I have done. To view more projects I have done check out my <a href="https://github.com/Anurudran" class="text-blue-500 underline">GitHub account</a>.
       </p>
-      <div class="projectitem">
-        <ProjectItem img={pythongamesimg} title="Python Games"/>
-
+      <div class='grid sm:grid-cols-2 gap-12'>
+        <ProjectItem img={pythongamesimg} title="Python Games" languages="Python" link ="https://github.com/Anurudran/Python-Games"/>
+        <ProjectItem img={twitterimg} title="Twitter CRUD App" languages="Java" link ="https://github.com/Anurudran/Java-Projects/tree/main/core_java/twitter"/>
       </div>
     </div>
   );
