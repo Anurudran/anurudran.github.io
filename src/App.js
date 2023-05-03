@@ -3,7 +3,6 @@ import Navigation from './components/Navigation';
 import Work from './components/Work';
 import About from './components/About';
 import Projects from './components/Projects';
-import './App.css';
 
 
 

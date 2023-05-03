@@ -30,8 +30,8 @@ const Work = () => {
         }
     ]
     return (
-        <div class="custom-work">
-            <h1> Work</h1>
+        <div id="work" class="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
+            <h1 className="sm:text-5xl text-4xl font-bold"> Work</h1>
             {data.map((work, id) => (
                 <WorkItem key={id} year={work.year} title={work.title} duration={work.duration} details={work.details} />
             ))}
@@ -42,4 +42,3 @@ const Work = () => {
 
 export default Work;
 
-//my-2 text-base font-normal text-stone-500

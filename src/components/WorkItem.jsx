@@ -17,4 +17,3 @@ const WorkItem = ({year, title, duration, details}) => {
 
 export default WorkItem;
 
-//inline-block px-2 py-1 font-semibold text-white bg-[#001b5e] rounded-md

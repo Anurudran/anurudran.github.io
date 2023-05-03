@@ -118,14 +118,14 @@ h1 {
   font-size: 0.875rem; /* 14px (assuming 1rem = 16px) */
   font-weight: normal;
   line-height: 1;
-  color: #9CA3AF; /* stone-400 color */
+  color: #23324b; /* stone-400 color */
 }
 
 .details {
   margin-top: 2rem; /* equivalent to my-2 */
   font-size: 1rem; /* equivalent to text-base */
   font-weight: normal; /* equivalent to font-normal */
-  color: #9CA3AF; /* equivalent to text-stone-500 */
+  color: #3d4247; /* equivalent to text-stone-500 */
 }
 
 .projects {
